@@ -1,0 +1,102 @@
+Begin Map
+   Begin Level
+      Begin Actor Class=/Script/Engine.PostProcessVolume Name=PostProcessVolume_1 Archetype=/Script/Engine.PostProcessVolume'/Script/Engine.Default__PostProcessVolume'
+         Begin Object Class=/Script/Engine.BrushComponent Name="BrushComponent0" Archetype=/Script/Engine.BrushComponent'/Script/Engine.Default__PostProcessVolume:BrushComponent0' ExportPath=/Script/Engine.BrushComponent'"/Game/Genshin_Shader/samples/SamplesMap.SamplesMap:PersistentLevel.PostProcessVolume_1.BrushComponent0"'
+            Begin Object Class=/Script/Engine.BodySetup Name="BodySetup_0" ExportPath=/Script/Engine.BodySetup'"/Game/Genshin_Shader/samples/SamplesMap.SamplesMap:PersistentLevel.PostProcessVolume_1.BrushComponent0.BodySetup_0"'
+            End Object
+         End Object
+         Begin Object Class=/Script/UnrealEd.CubeBuilder Name="CubeBuilder_3" ExportPath=/Script/UnrealEd.CubeBuilder'"/Game/Genshin_Shader/samples/SamplesMap.SamplesMap:PersistentLevel.PostProcessVolume_1.CubeBuilder_3"'
+         End Object
+         Begin Brush Name=Model_1
+         End Brush
+         Begin Object Name="BrushComponent0" ExportPath=/Script/Engine.BrushComponent'"/Game/Genshin_Shader/samples/SamplesMap.SamplesMap:PersistentLevel.PostProcessVolume_1.BrushComponent0"'
+            Begin Object Name="BodySetup_0" ExportPath=/Script/Engine.BodySetup'"/Game/Genshin_Shader/samples/SamplesMap.SamplesMap:PersistentLevel.PostProcessVolume_1.BrushComponent0.BodySetup_0"'
+               AggGeom=(ConvexElems=((VertexData=((X=-100.000000,Y=100.000000,Z=-100.000000),(X=-100.000000,Y=100.000000,Z=100.000000),(X=-100.000000,Y=-100.000000,Z=100.000000),(X=-100.000000,Y=-100.000000,Z=-100.000000),(X=100.000000,Y=100.000000,Z=-100.000000),(X=100.000000,Y=100.000000,Z=100.000000),(X=100.000000,Y=-100.000000,Z=-100.000000),(X=100.000000,Y=-100.000000,Z=100.000000)),IndexData=(5,4,1,0,2,1,0,1,4,3,0,4,3,2,0,6,3,4,6,2,3,5,1,2,5,6,4,7,5,2,7,6,5,7,2,6),ElemBox=(Min=(X=-100.000000,Y=-100.000000,Z=-100.000000),Max=(X=100.000000,Y=100.000000,Z=100.000000),IsValid=True))))
+               bGenerateMirroredCollision=False
+               CollisionTraceFlag=CTF_UseSimpleAsComplex
+            End Object
+            Brush=/Script/Engine.Model'"Model_1"'
+            BrushBodySetup=/Script/Engine.BodySetup'"BodySetup_0"'
+            BodyInstance=(MaxAngularVelocity=3599.999756)
+            RelativeLocation=(X=-270.000000,Y=-110.000000,Z=120.000000)
+            RelativeScale3D=(X=6.000000,Y=6.000000,Z=6.000000)
+         End Object
+         Begin Object Name="CubeBuilder_3" ExportPath=/Script/UnrealEd.CubeBuilder'"/Game/Genshin_Shader/samples/SamplesMap.SamplesMap:PersistentLevel.PostProcessVolume_1.CubeBuilder_3"'
+         End Object
+         Settings=(bOverride_TemperatureType=True,bOverride_WhiteTemp=True,bOverride_WhiteTint=True,bOverride_ColorSaturation=True,bOverride_ColorContrast=True,bOverride_ColorGamma=True,bOverride_ColorGain=True,bOverride_ColorContrastShadows=True,bOverride_ColorGammaShadows=True,bOverride_ColorGainShadows=True,bOverride_ColorSaturationMidtones=True,bOverride_ColorContrastMidtones=True,bOverride_ColorGainMidtones=True,bOverride_ColorSaturationHighlights=True,bOverride_ColorGammaHighlights=True,bOverride_ColorGainHighlights=True,bOverride_ColorCorrectionHighlightsMin=True,bOverride_ColorCorrectionHighlightsMax=True,bOverride_FilmSlope=True,bOverride_FilmToe=True,bOverride_FilmShoulder=True,bOverride_FilmBlackClip=True,bOverride_FilmWhiteClip=True,bOverride_BloomMethod=True,bOverride_BloomIntensity=True,bOverride_BloomThreshold=True,bOverride_LocalExposureDetailStrength=True,bOverride_LocalExposureBlurredLuminanceBlend=True,bOverride_LocalExposureBlurredLuminanceKernelSizePercent=True,bOverride_LocalExposureMiddleGreyBias=True,bOverride_VignetteIntensity=True,BloomMethod=BM_FFT,TemperatureType=TEMP_ColorTemperature,WhiteTemp=6327.200195,ColorSaturation=(X=0.770000,Y=1.000000,Z=0.900000,W=1.160000),ColorContrast=(X=1.000000,Y=1.000000,Z=1.000000,W=0.960000),ColorGain=(X=1.000000,Y=1.000000,Z=1.000000,W=0.760000),ColorSaturationShadows=(X=1.000000,Y=1.000000,Z=1.000000,W=0.910000),ColorContrastShadows=(X=1.000000,Y=1.000000,Z=1.000000,W=0.350000),ColorGainShadows=(X=1.000000,Y=1.000000,Z=1.000000,W=0.860000),ColorSaturationMidtones=(X=1.000000,Y=1.000000,Z=1.000000,W=0.860000),ColorContrastMidtones=(X=1.000000,Y=1.000000,Z=1.000000,W=1.080000),ColorGainMidtones=(X=1.000000,Y=1.000000,Z=1.000000,W=1.060000),ColorSaturationHighlights=(X=1.000000,Y=1.000000,Z=1.000000,W=1.110000),ColorGammaHighlights=(X=1.000000,Y=1.000000,Z=1.000000,W=0.510000),ColorGainHighlights=(X=1.160000,Y=1.000000,Z=1.000000,W=1.620000),ColorCorrectionHighlightsMin=-0.523199,ColorCorrectionHighlightsMax=2.440001,FilmSlope=0.609601,FilmToe=0.690800,FilmShoulder=0.744000,FilmBlackClip=0.044800,BloomIntensity=3.072000,BloomDirtMaskIntensity=2.214400,LocalExposureDetailStrength=0.563200,LocalExposureBlurredLuminanceBlend=0.441600,LocalExposureBlurredLuminanceKernelSizePercent=51.359993,VignetteIntensity=0.339200,WeightedBlendables=(Array=((Weight=1.000000,Object=/Script/Engine.MaterialInstanceConstant'"/Game/Shader_Test_Character/MM_outline_Inst.MM_outline_Inst"'))))
+         BrushType=Brush_Add
+         Begin Brush Name=Model_1
+            Begin PolyList
+               Begin Polygon
+                  Origin   -00100.000000,-00100.000000,-00100.000000
+                  Normal   -00001.000000,+00000.000000,+00000.000000
+                  TextureU +00000.000000,+00001.000000,+00000.000000
+                  TextureV +00000.000000,+00000.000000,-00001.000000
+                  Vertex   -00100.000000,-00100.000000,-00100.000000
+                  Vertex   -00100.000000,-00100.000000,+00100.000000
+                  Vertex   -00100.000000,+00100.000000,+00100.000000
+                  Vertex   -00100.000000,+00100.000000,-00100.000000
+               End Polygon
+               Begin Polygon
+                  Origin   -00100.000000,+00100.000000,-00100.000000
+                  Normal   +00000.000000,+00001.000000,+00000.000000
+                  TextureU +00001.000000,-00000.000000,+00000.000000
+                  TextureV +00000.000000,+00000.000000,-00001.000000
+                  Vertex   -00100.000000,+00100.000000,-00100.000000
+                  Vertex   -00100.000000,+00100.000000,+00100.000000
+                  Vertex   +00100.000000,+00100.000000,+00100.000000
+                  Vertex   +00100.000000,+00100.000000,-00100.000000
+               End Polygon
+               Begin Polygon
+                  Origin   +00100.000000,+00100.000000,-00100.000000
+                  Normal   +00001.000000,+00000.000000,+00000.000000
+                  TextureU +00000.000000,-00001.000000,+00000.000000
+                  TextureV +00000.000000,+00000.000000,-00001.000000
+                  Vertex   +00100.000000,+00100.000000,-00100.000000
+                  Vertex   +00100.000000,+00100.000000,+00100.000000
+                  Vertex   +00100.000000,-00100.000000,+00100.000000
+                  Vertex   +00100.000000,-00100.000000,-00100.000000
+               End Polygon
+               Begin Polygon
+                  Origin   +00100.000000,-00100.000000,-00100.000000
+                  Normal   +00000.000000,-00001.000000,+00000.000000
+                  TextureU -00001.000000,-00000.000000,-00000.000000
+                  TextureV +00000.000000,+00000.000000,-00001.000000
+                  Vertex   +00100.000000,-00100.000000,-00100.000000
+                  Vertex   +00100.000000,-00100.000000,+00100.000000
+                  Vertex   -00100.000000,-00100.000000,+00100.000000
+                  Vertex   -00100.000000,-00100.000000,-00100.000000
+               End Polygon
+               Begin Polygon
+                  Origin   -00100.000000,+00100.000000,+00100.000000
+                  Normal   +00000.000000,+00000.000000,+00001.000000
+                  TextureU +00001.000000,+00000.000000,+00000.000000
+                  TextureV +00000.000000,+00001.000000,+00000.000000
+                  Vertex   -00100.000000,+00100.000000,+00100.000000
+                  Vertex   -00100.000000,-00100.000000,+00100.000000
+                  Vertex   +00100.000000,-00100.000000,+00100.000000
+                  Vertex   +00100.000000,+00100.000000,+00100.000000
+               End Polygon
+               Begin Polygon
+                  Origin   -00100.000000,-00100.000000,-00100.000000
+                  Normal   +00000.000000,+00000.000000,-00001.000000
+                  TextureU +00001.000000,+00000.000000,+00000.000000
+                  TextureV +00000.000000,-00001.000000,+00000.000000
+                  Vertex   -00100.000000,-00100.000000,-00100.000000
+                  Vertex   -00100.000000,+00100.000000,-00100.000000
+                  Vertex   +00100.000000,+00100.000000,-00100.000000
+                  Vertex   +00100.000000,-00100.000000,-00100.000000
+               End Polygon
+            End PolyList
+         End Brush
+         Brush=/Script/Engine.Model'"Model_1"'
+         BrushComponent="BrushComponent0"
+         BrushBuilder=/Script/UnrealEd.CubeBuilder'"CubeBuilder_3"'
+         bHidden=False
+         RootComponent="BrushComponent0"
+         ActorLabel="PostProcessVolume"
+      End Actor
+   End Level
+Begin Surface
+End Surface
+End Map
